@@ -289,7 +289,7 @@ export default class ElectronAppWrapper {
 		if (process.platform === 'darwin') {
 			output = 'macos-16x16Template.png'; // Electron Template Image format
 		} else {
-			output = '16x16.png';
+			output = 'JoplinIconBlack.png';
 		}
 
 		if (this.env_ === 'dev') output = '16x16-dev.png';
